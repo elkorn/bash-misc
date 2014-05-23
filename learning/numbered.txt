@@ -1,0 +1,50 @@
+    10	            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+    11	            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+    12	            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+    13	            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+    14	            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+    15	            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+    16	            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+    17	            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+    18	            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+    19	            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+     1	            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+    20	            Chen,Y.J.
+    21	  CONSRTM   International Human Genome Sequencing Consortium
+    22	  TITLE     Initial sequencing and analysis of the human genome
+    23	  JOURNAL   Nature 409 (6822), 860-921 (2001)
+    24	   PUBMED   11237011
+    25	  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+    26	REFERENCE   3  (bases 1 to 647850)
+    27	  AUTHORS   Dunham,I., Shimizu,N., Roe,B.A., Chissoe,S., Hunt,A.R.,
+    28	            Collins,J.E., Bruskiewich,R., Beare,D.M., Clamp,M., Smink,L.J.,
+    29	            Ainscough,R., Almeida,J.P., Babbage,A., Bagguley,C., Bailey,J.,
+     2	            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+    30	            Barlow,K., Bates,K.N., Beasley,O., Bird,C.P., Blakey,S.,
+    31	            Bridgeman,A.M., Buck,D., Burgess,J., Burrill,W.D., O'Brien,K.P. et
+    32	            al.
+    33	  TITLE     The DNA sequence of human chromosome 22
+    34	  JOURNAL   Nature 402 (6761), 489-495 (1999)
+    35	   PUBMED   10591208
+    36	  REMARK    Erratum:[Nature 2000 Apr 20;404(6780):904]
+    37	COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+    38	            GL000153.1.
+    39	            On or before Mar 1, 2006 this sequence version replaced
+     3	            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+    40	            gi:14776721, gi:29807603.
+    41	            Assembly Name: GRCh37.p10 Primary Assembly
+    42	            The DNA sequence is composed of genomic sequence, primarily
+    43	            finished clones that were sequenced as part of the Human Genome
+    44	            Project. PCR products and WGS shotgun sequence have been added
+    45	            where necessary to fill gaps or correct errors. All such additions
+    46	            are manually curated by GRC staff. For more information see:
+    47	            http://genomereference.org.
+    48	            
+    49	            ##Genome-Annotation-Data-START##
+     4	            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+    50	            Annotation Provider :: NCBI
+     5	            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+     6	            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+     7	            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+     8	            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+     9	            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,

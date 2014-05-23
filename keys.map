@@ -1,0 +1,13 @@
+keysym 0x1008ff11, XF86AudioLowerVolume
+keysym 0x1008ff12, XF86AudioMute
+keysym 0x1008ff13, XF86AudioRaiseVolume
+keysym 0x1008ff14, XF86AudioPlay
+keysym 0x1008ff16, XF86AudioPrev
+keysym 0x1008ff17, XF86AudioNext
+keysym 0x1008ff18, XF86HomePage
+keysym 0x1008ff19, XF86Mail
+keysym 0x1008ff1d, XF86Calculator
+keysym 0x1008ff30, XF86Favorites
+keysym 0x1008ff5d, XF86Explorer
+keysym 0x1008ff81, XF86Tools
+keysym 0xff0d, Return

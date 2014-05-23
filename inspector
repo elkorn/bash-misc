@@ -1,0 +1,8 @@
+#!/bin/bash
+gnome-terminal -x supervisor -i . -x node-inspector . &
+export DEBUG_INSPECTOR=$!
+gnome-terminal -x supervisor --debug -- $(which nodeunit) $1 &
+export DEBUG_NODEUNIT=$!
+$(which chromium-browser) --app=http://0.0.0.0:8080/debug?port=5858
+export DEBUG_BROWSER=$!
+wait

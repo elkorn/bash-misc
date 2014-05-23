@@ -1,0 +1,10 @@
+     1              Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+    42              The DNA sequence is composed of genomic sequence, primarily
+    43              finished clones that were sequenced as part of the Human Genome
+    44              Project. PCR products and WGS shotgun sequence have been added
+    45              where necessary to fill gaps or correct errors. All such additions
+    46              are manually curated by GRC staff. For more information see:
+    47              http://genomereference.org.
+    48              
+    49              ##Genome-Annotation-Data-START##
+    50              Annotation Provider :: NCBI
