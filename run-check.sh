@@ -1,28 +1,29 @@
 #!/bin/bash
+
+# TODO use getopts
 function check_normal() {
-    if [ $(ps aux | grep $2 | wc -l) -gt 3 ]
+    if [ $(pgrep "$1" | wc -l) -gt 0 ]
     then
-        echo "$1: already running as $2"
-        exit 1
+        echo "$2: already running as $1"
     fi
 }
 
 function check_capital() {
-    check_normal "$1" "${2^}"
+    check_normal "$2" "${1^}"
 }
 
 if [ -n "$1" ]
 then
     if [ -n "$2" ]
     then
-        check_normal "$1" "$2"
-        check_capital "$1" "$2"
+        check_normal "$2" "$1"
+        check_capital "$2" "$1"
     else
-        check_normal "$1" "$1"
-        check_capital "$1" "$1"
+        check_normal "$2" "$2"
+        check_capital "$2" "$2"
     fi
-
-    "$1" &
+    echo "Running $2"
+    $($2 &)
 else
-    echo "Provide a process name. Correct usage: run-check {processName} [{processAlias}]"
+    echo "Provide a process name. Correct usage: run-check [{processAlias}] {processName} {processArgs}"
 fi
